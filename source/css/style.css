@@ -1,0 +1,55 @@
+.container {
+    width: 1000px;
+    height: 500px;
+    background: #edf1f7;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.title {
+    text-align: center;
+    font: 24px/1.5 'Arial';
+}
+
+.inputArea {
+    padding: 20px;
+}
+
+.message {
+    text-align: center;
+}
+
+table {
+    width: 640px;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid #bcbdbd;
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+td {
+    height: 40px;
+    border: none;
+    color: #333333;
+    font-size: 14px;
+}
+
+td:first-child {
+    padding-right: 10px;
+    width: 45%;
+    text-align: right;
+}
+
+input[name='port'] {
+    width: 100px;
+}

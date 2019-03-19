@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Port Number Apply</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <style type="text/css">
+    @import './css/style.css';
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Please select your port number</div>
+        <div class="inputArea">
+            <table cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="studentID">Student No. :</label>
+                        </td>
+                        <td>
+                            <input type="text" id="studentID" name="studentID" placeholder="enter you student number" maxlength="8" />
+                            <output id="studentID_error" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="port1">Port_1:</label>
+                        </td>
+                        <td>
+                            <input type="number" id="port1" name="port" placeholder="61000-61999" max="61999" min="61000" />
+                            <output id="port1_rslt" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="port2">Port_2:</label>
+                        </td>
+                        <td>
+                            <input type="number" id="port2" name="port" placeholder="61000-61999" max="61999" min="61000" />
+                            <output id="port2_rslt" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <input type="button" id="submit" value="submit" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="message">
+            <p></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="./javascript/index.js"></script>
+</body>
+
+</html>
