@@ -1,4 +1,5 @@
 # PortApplication
+This is a simple application which you can select two accepted port numbers to submit. The successful submission would automatically send an email with the information of your ID along with the two numbers. The application utilizes a google spreadsheet as a database, all accepted numbers and their corresponding ID would also automatically be written into the sheet.
 
 ## Dependencies:
 nodejs
