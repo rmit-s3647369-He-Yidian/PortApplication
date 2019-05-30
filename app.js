@@ -4,7 +4,7 @@ var creds = require('./json/credentials.json');
 var doc = new GoogleSpreadsheet('1zwY5vMOPwoMo27NXJoNshbXAZt_DLz1rvwdnDeV1UuU');
 // require api to send mail
 var nodemailer = require('nodemailer');
-var transporter = nodemailer.createTransport({ service: 'gmail', auth: { user: 'honedot@gmail.com', pass: '082504hyd' } });
+var transporter = nodemailer.createTransport({ service: 'gmail', auth: { user: 'honedot@gmail.com', pass: '' } });
 
 var express = require('express');
 var path = require('path');
