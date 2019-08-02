@@ -14,7 +14,10 @@ nodemailer api
 ./source
 
 ## Execution:
-Open your command line under the file path you store the source file, run with the instruction `node app.js`, then it would automatically open your default browser and go to the site (localhost:9001). Filling in the form with your student number and two port number for checking the validation. If both the results of the two port numbers are saying ‘port number accepted’, you can click on ‘submit’ button and the browser would alert you that your application is succeed. An e-mail would be sent after the successful submit. 
+- Download the source file and open `cmd` under the file path you store them.
+- First, you need to install the node-modules with command `npm i`, it will automatically download the required api modules.
+- Then, run with the instruction `node app.js`, then it would automatically open your default browser and go to the site (localhost:9001). - Filling in the form with your student number and two port number for checking the validation. If both the results of the two port numbers are saying ‘port number accepted’, you can click on ‘submit’ button and the browser would alert you that your application is succeed. 
+- An e-mail would be sent after a successful submission. 
 
 *You should make sure your computer has **nodejs** environment installed and the port **9001** is free.
 
