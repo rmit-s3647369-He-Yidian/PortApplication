@@ -4,7 +4,7 @@
   "description": "google spreadsheet",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "firebase": "^5.8.6",
     "google-spreadsheet": "^2.0.7",
     "googleapis": "^27.0.0",
